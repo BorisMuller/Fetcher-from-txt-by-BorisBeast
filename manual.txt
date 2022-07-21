@@ -1,0 +1,26 @@
+If you have any questions please send me a message on Discord: BorisBeast#2232
+
+To run the fetcher you need to make a .txt file with all the specific links you need. 
+Every link needs to be on a new line.
+It does not matter if the GET or any other html request keywords are on the line and it also doesn't matter if the loadtime is still on the line.
+This means you can just copy paste the logs from Basilisk or other browsers with all the links that are requested.
+
+If you want to request the links from Flashpoint since the original site no longer exists use the Flashpoint Fetch folder.
+You need the link to the original file here instead of adding the Flashpoint site before it.
+The No Prefix Fetch will not ask you for the prefix mentioned below.
+
+All fetchers work the exact same for the rest of the functionalities.
+
+To run the script just drop the .txt file on the .bat file you want.
+
+First the script will ask you for the prefix. 
+If all the links in the txt file are only the file extension and the few folders in front of it you can write the full site link in front of it here.
+If the links are already pointing the the site itself you can leave this empty. 
+Instead of leaving it empty you can also run the No Prefix Fetch.
+
+Then the script will ask you for the shared folder.
+Here you can enter the folder name where all the files are inside of so you won't unneccesarily save the folders in front of it.
+If you leave it empty the files will take on the full folder structure from the site starting from the first "/"
+
+Lastly the script will ask for a folder name.
+Here you can pick what folder you want the files to be saved in. After running the script the files will be saved in "Downloads/(folder name)"
